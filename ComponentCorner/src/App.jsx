@@ -1,10 +1,13 @@
 import './App.css'
 import ProductCard from './components/ProductCard';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="app">
-      <h1>ComponentCorner</h1>
+      <Header storeName="ComponentCorner" />
+
+      <h2>Featured Products</h2>
 
       <ProductCard
         name="Ethiopian Yirgacheffe"
