@@ -2,6 +2,7 @@ import './App.css'
 import ProductCard from './components/ProductCard';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -38,6 +39,12 @@ function App() {
           description="Bold and rich with a smooth chocolate finish."
         />
       </main>
+      
+      <Footer
+        storeName="ComponentCorner"
+        email="hello@componentcorner.com"
+        phone="(555) 123-4567"
+      />
     </div>
   );
 }
